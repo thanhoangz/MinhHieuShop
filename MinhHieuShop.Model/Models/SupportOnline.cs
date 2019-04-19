@@ -17,21 +17,20 @@ namespace MinhHieuShop.Model.Models
         [MaxLength(50)]
         public string Department { set; get; }
 
-        [MaxLength(250)]
+        [MaxLength(50)]
         public string Skype { set; get; }
 
-        [MaxLength(250)]
+        [MaxLength(50)]
         public string Mobile { set; get; }
 
-        [MaxLength(250)]
+        [MaxLength(50)]
         public string Email { set; get; }
 
-        [MaxLength(250)]
+        [MaxLength(50)]
         public string Yahoo { set; get; }
 
-        [MaxLength(250)]
+        [MaxLength(50)]
         public string Facebook { set; get; }
-
 
         public bool Status { set; get; }
 

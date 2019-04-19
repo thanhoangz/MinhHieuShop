@@ -1,5 +1,4 @@
-﻿
-using MinhHieuShop.Data.Infrastructure;
+﻿using MinhHieuShop.Data.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,7 +8,7 @@ using System.Linq.Expressions;
 namespace MinhHieuShop.Data
 {
     //nhiệm vụ thực thi trong Irepository 
-    public abstract class RepositoryBase<T> where T : class
+    public abstract class RepositoryBase<T>:IRepository<T> where T : class
     {
         #region Properties
         private MinhHieuShopDbContext dataContext;
@@ -49,7 +48,11 @@ namespace MinhHieuShop.Data
         {
             dbSet.Remove(entity);
         }
-
+        public virtual void Delete(int id)
+        {
+            var entity = dbSet.Find(id);
+            dbSet.Remove(entity);
+        }
         public virtual void DeleteMulti(Expression<Func<T, bool>> where)
         {
             IEnumerable<T> objects = dbSet.Where<T>(where).AsEnumerable();
@@ -80,7 +83,7 @@ namespace MinhHieuShop.Data
             {
                 var query = dataContext.Set<T>().Include(includes.First());
                 foreach (var include in includes.Skip(1))
-                    query = query.Include(include);
+                    query = query.Include(include); 
                 return query.AsQueryable();
             }
 

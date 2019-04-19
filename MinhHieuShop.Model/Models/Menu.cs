@@ -8,37 +8,27 @@ namespace MinhHieuShop.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ID { get; set; }
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string Name { set; get; }
 
         [Required]
         [MaxLength(256)]
-        public string URL { get; set; }
+        public string URL { set; get; }
 
-
-        public int? DisplayOrder { get; set; }
+        public int? DisplayOrder { set; get; }
 
         [Required]
         public int GroupID { set; get; }
 
-
-
-
-        [MaxLength(10)]
-        public string Target { get; set; }
-
-
-        public bool Status { get; set; }
-
-
-        /// <summary>
-        ///ForeignKey
-        /// </summary>
-
         [ForeignKey("GroupID")]
         public virtual MenuGroup MenuGroup { set; get; }
+
+        [MaxLength(10)]
+        public string Target { set; get; }
+
+        public bool Status { set; get; }
     }
 }
