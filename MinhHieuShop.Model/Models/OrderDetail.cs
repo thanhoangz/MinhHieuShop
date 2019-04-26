@@ -1,5 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MinhHieuShop.Model.Models
@@ -8,7 +7,7 @@ namespace MinhHieuShop.Model.Models
     public class OrderDetail
     {
         [Key]
-        [Column(Order = 1)]
+        [Column(Order =1)]
         public int OrderID { set; get; }
 
         [Key]

@@ -11,7 +11,7 @@ namespace MinhHieuShop.Model.Models
         public int PostID { set; get; }
 
         [Key]
-        [Column(TypeName = "varchar", Order = 2)]
+        [Column(TypeName = "varchar",Order =2)]
         [MaxLength(50)]
         public string TagID { set; get; }
 
@@ -20,6 +20,5 @@ namespace MinhHieuShop.Model.Models
 
         [ForeignKey("TagID")]
         public virtual Tag Tag { set; get; }
-
     }
 }

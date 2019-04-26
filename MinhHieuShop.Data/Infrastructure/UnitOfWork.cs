@@ -1,6 +1,4 @@
-﻿
-
-namespace MinhHieuShop.Data.Infrastructure
+﻿namespace MinhHieuShop.Data.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {

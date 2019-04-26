@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E59B4853-AD93-4AA6-9DC1-2EAE2BCD0B83}</ProjectGuid>
+    <ProjectGuid>{3EC29C46-ED87-4FD8-B8D7-4A9E74392C27}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MinhHieuShop.Service</RootNamespace>
@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ErrorService.cs" />
+    <Compile Include="PostCategoryService.cs" />
     <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,16 +58,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MinhHieuShop.Common\MinhHieuShop.Common.csproj">
-      <Project>{9c0c31c2-dbc9-43bf-84db-02d8b02a7de0}</Project>
-      <Name>MinhHieuShop.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MinhHieuShop.Data\MinhHieuShop.Data.csproj">
-      <Project>{b8eb27ed-2de9-4ae5-a767-4d162fd857af}</Project>
+      <Project>{106d6ade-098f-437e-b148-331b8c223128}</Project>
       <Name>MinhHieuShop.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\MinhHieuShop.Model\MinhHieuShop.Model.csproj">
-      <Project>{cf2f804b-e945-43ee-8bfc-0f300b1e09cf}</Project>
+      <Project>{581e0b8f-b06d-4fe8-b91b-d1f90f704f16}</Project>
       <Name>MinhHieuShop.Model</Name>
     </ProjectReference>
   </ItemGroup>

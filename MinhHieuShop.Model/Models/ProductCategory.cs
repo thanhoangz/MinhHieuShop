@@ -1,7 +1,7 @@
-﻿using MinhHieuShop.Model.Abstract;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using MinhHieuShop.Model.Abstract;
 
 namespace MinhHieuShop.Model.Models
 {

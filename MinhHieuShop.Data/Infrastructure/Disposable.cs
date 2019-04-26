@@ -14,7 +14,7 @@ namespace MinhHieuShop.Data.Infrastructure
         public void Dispose()
         {
             Dispose(true);
-            GC.SuppressFinalize(this);      //hủy rác
+            GC.SuppressFinalize(this);
         }
         private void Dispose(bool disposing)
         {
@@ -26,7 +26,7 @@ namespace MinhHieuShop.Data.Infrastructure
             isDisposed = true;
         }
 
-        // ghi đè dispose cho bất cứ obj nào
+        // Ovveride this to dispose custom objects
         protected virtual void DisposeCore()
         {
         }

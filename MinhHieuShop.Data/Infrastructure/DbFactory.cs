@@ -1,12 +1,15 @@
-﻿namespace MinhHieuShop.Data.Infrastructure
+﻿
+namespace MinhHieuShop.Data.Infrastructure
 {
     public class DbFactory : Disposable, IDbFactory
     {
-        MinhHieuShopDbContext dbContext;
+        private MinhHieuShopDbContext dbContext;
+
         public MinhHieuShopDbContext Init()
         {
-            return dbContext ?? (dbContext = new MinhHieuShopDbContext()); //nếu db == null thì khởi tạo
+            return dbContext ?? (dbContext = new MinhHieuShopDbContext());
         }
+
         protected override void DisposeCore()
         {
             if (dbContext != null)

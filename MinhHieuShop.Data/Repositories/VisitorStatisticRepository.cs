@@ -1,5 +1,6 @@
-﻿using MinhHieuShop.Data.Infrastructure;
+﻿
 using MinhHieuShop.Model.Models;
+using MinhHieuShop.Data.Infrastructure;
 
 namespace MinhHieuShop.Data.Repositories
 {

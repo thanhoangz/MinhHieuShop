@@ -1,38 +1,48 @@
-﻿using MinhHieuShop.Model.Models;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using MinhHieuShop.Model.Models;
 using System.Data.Entity;
 
 namespace MinhHieuShop.Data
 {
-    public class MinhHieuShopDbContext : DbContext
+    public class MinhHieuShopDbContext: IdentityDbContext<ApplicationUser>
     {
         public MinhHieuShopDbContext() : base("MinhHieuShopConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
 
-        public DbSet<Footer> Footers { get; set; }
-        public DbSet<Menu> Menus { get; set; }
-        public DbSet<MenuGroup> MenuGroups { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
-        public DbSet<Page> Pages { get; set; }
-        public DbSet<Post> Posts { get; set; }
-        public DbSet<PostCategory> PostCategories { get; set; }
-        public DbSet<PostTag> PostTags { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<ProductCategory> ProductCategories { get; set; }
-        public DbSet<ProductTag> ProductTags { get; set; }
-        public DbSet<Slide> Slides { get; set; }
-        public DbSet<SupportOnline> SupportOnlines { get; set; }
-        public DbSet<SystemConfig> SystemConfigs { get; set; }
-        public DbSet<Tag> Tags { get; set; }
-        public DbSet<VisitorStatistic> VisitorStatistics { get; set; }
+        public DbSet<Footer> Footers { set; get; }
+        public DbSet<Menu> Menus { set; get; }
+        public DbSet<MenuGroup> MenuGroups { set; get; }
+        public DbSet<Order> Orders { set; get; }
+        public DbSet<OrderDetail> OrderDetails { set; get; }
+        public DbSet<Page> Pages { set; get; }
+        public DbSet<Post> Posts { set; get; }
+        public DbSet<PostCategory> PostCategories { set; get; }
+        public DbSet<PostTag> PostTags { set; get; }
+        public DbSet<Product> Products { set; get; }
+
+        public DbSet<ProductCategory> ProductCategories { set; get; }
+        public DbSet<ProductTag> ProductTags { set; get; }
+        public DbSet<Slide> Slides { set; get; }
+        public DbSet<SupportOnline> SupportOnlines { set; get; }
+        public DbSet<SystemConfig> SystemConfigs { set; get; }
+
+        public DbSet<Tag> Tags { set; get; }
+
+        public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
+        public DbSet<Error> Errors { set; get; }
 
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        public static MinhHieuShopDbContext Create()
         {
-
+            return new MinhHieuShopDbContext();
         }
 
+        protected override void OnModelCreating(DbModelBuilder builder)
+        {
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
+        }
     }
 }

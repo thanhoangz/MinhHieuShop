@@ -1,0 +1,6 @@
+C:\Users\ThanHoang\source\repos\MinhHieuShop\MinhHieuShop.Common\bin\Debug\MinhHieuShop.Common.dll
+C:\Users\ThanHoang\source\repos\MinhHieuShop\MinhHieuShop.Common\bin\Debug\MinhHieuShop.Common.pdb
+C:\Users\ThanHoang\source\repos\MinhHieuShop\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.csprojAssemblyReference.cache
+C:\Users\ThanHoang\source\repos\MinhHieuShop\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\ThanHoang\source\repos\MinhHieuShop\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.dll
+C:\Users\ThanHoang\source\repos\MinhHieuShop\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.pdb
