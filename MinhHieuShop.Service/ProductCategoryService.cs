@@ -15,6 +15,8 @@ namespace MinhHieuShop.Service
 
         IEnumerable<ProductCategory> GetAll();
 
+        IEnumerable<ProductCategory> GetAll(string keyword);
+
         IEnumerable<ProductCategory> GetAllByParentId(int parentId);
 
         ProductCategory GetById(int id);
@@ -46,6 +48,11 @@ namespace MinhHieuShop.Service
         public IEnumerable<ProductCategory> GetAll()
         {
             return _ProductCategoryRepository.GetAll();
+        }
+
+        public IEnumerable<ProductCategory> GetAll(string keyword)
+        {
+            return (!string.IsNullOrEmpty(keyword))?_ProductCategoryRepository.GetMulti(x=> x.Name.Contains(keyword)||x.Description.Contains(keyword)): _ProductCategoryRepository.GetAll();
         }
 
         public IEnumerable<ProductCategory> GetAllByParentId(int parentId)
