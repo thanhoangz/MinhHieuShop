@@ -6,9 +6,7 @@
     function productCategoryAddController(apiService, $scope, notificationService, $state) {
         $scope.productCategory = {
             CreatedDate: new Date(),
-            Status: true,
-            Name: "Danh mục 1",
-            Alias: "xxx"
+            Status: true
         }
 
         $scope.AddProductCategory = AddProductCategory;
