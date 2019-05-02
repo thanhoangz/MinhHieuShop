@@ -210,3 +210,4 @@ D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.csproj.CoreCompileInp
 D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.csproj.CopyComplete
 D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.dll
 D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Web\bin\CKFinder.dll

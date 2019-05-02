@@ -10,6 +10,7 @@
         }
 
         $scope.AddProductCategory = AddProductCategory;
+    
 
         function AddProductCategory() {
             apiService.post('api/productcategory/create', $scope.productCategory,

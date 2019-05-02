@@ -1,3 +1,3 @@
 ﻿(function () {
-    angular.module('minhhieushop.common', ['ui.router','ngBootbox'])
+    angular.module('minhhieushop.common', ['ui.router', 'ngBootbox', 'ngCkeditor'])
 })();
