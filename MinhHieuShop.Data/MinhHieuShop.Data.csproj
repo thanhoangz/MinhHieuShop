@@ -73,6 +73,10 @@
     <Compile Include="Migrations\201904251406023_ChangeKey.Designer.cs">
       <DependentUpon>201904251406023_ChangeKey.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905030713555_AddTagFiled.cs" />
+    <Compile Include="Migrations\201905030713555_AddTagFiled.Designer.cs">
+      <DependentUpon>201905030713555_AddTagFiled.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MinhHieuShopDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904251406023_ChangeKey.resx">
       <DependentUpon>201904251406023_ChangeKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905030713555_AddTagFiled.resx">
+      <DependentUpon>201905030713555_AddTagFiled.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -44,3 +44,4 @@ D:\Web\Project\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.csproj.CoreCompileI
 D:\Web\Project\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.csproj.CopyComplete
 D:\Web\Project\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.dll
 D:\Web\Project\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.Migrations.AddTagFiled.resources

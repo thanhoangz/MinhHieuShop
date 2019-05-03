@@ -38,6 +38,8 @@ namespace MinhHieuShop.Model.Models
         public string Description { set; get; }
         public string Content { set; get; }
 
+        public string Tags { get; set; }
+
         public bool? HomeFlag { set; get; }
         public bool? HotFlag { set; get; }
         public int? ViewCount { set; get; }

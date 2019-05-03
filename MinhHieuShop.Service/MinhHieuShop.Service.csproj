@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MinhHieuShop.Common\MinhHieuShop.Common.csproj">
+      <Project>{c214c197-f75b-4e05-9fcd-c32ab10b29a5}</Project>
+      <Name>MinhHieuShop.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MinhHieuShop.Data\MinhHieuShop.Data.csproj">
       <Project>{106d6ade-098f-437e-b148-331b8c223128}</Project>
       <Name>MinhHieuShop.Data</Name>

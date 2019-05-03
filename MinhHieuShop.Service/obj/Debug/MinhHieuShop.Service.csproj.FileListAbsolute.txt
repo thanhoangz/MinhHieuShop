@@ -42,3 +42,5 @@ D:\Web\Project\MinhHieuShop.Service\obj\Debug\MinhHieuShop.Service.csproj.CoreCo
 D:\Web\Project\MinhHieuShop.Service\obj\Debug\MinhHieuShop.Service.csproj.CopyComplete
 D:\Web\Project\MinhHieuShop.Service\obj\Debug\MinhHieuShop.Service.dll
 D:\Web\Project\MinhHieuShop.Service\obj\Debug\MinhHieuShop.Service.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Service\bin\Debug\MinhHieuShop.Common.dll
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Service\bin\Debug\MinhHieuShop.Common.pdb
