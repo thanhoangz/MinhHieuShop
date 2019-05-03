@@ -211,3 +211,5 @@ D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.csproj.CopyComplete
 D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.dll
 D:\Web\Project\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.pdb
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Web\bin\CKFinder.dll
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.Properties.Resources.resources
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop\MinhHieuShop.Web\obj\Debug\MinhHieuShop.Web.csproj.GenerateResource.cache
