@@ -11,6 +11,7 @@ using MinhHieuShop.Web.Infrastructure.Extensions;
 namespace MinhHieuShop.Web.Api
 {
     [RoutePrefix("api/postcategory")]
+    [Authorize]
     public class PostCategoryController : ApiControllerBase
     {
         IPostCategoryService _postCategoryService;
