@@ -77,6 +77,10 @@
     <Compile Include="Migrations\201905030713555_AddTagFiled.Designer.cs">
       <DependentUpon>201905030713555_AddTagFiled.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905041423566_AddContentToSilde.cs" />
+    <Compile Include="Migrations\201905041423566_AddContentToSilde.Designer.cs">
+      <DependentUpon>201905041423566_AddContentToSilde.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MinhHieuShopDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +108,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MinhHieuShop.Common\MinhHieuShop.Common.csproj">
+      <Project>{c214c197-f75b-4e05-9fcd-c32ab10b29a5}</Project>
+      <Name>MinhHieuShop.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MinhHieuShop.Model\MinhHieuShop.Model.csproj">
       <Project>{581e0b8f-b06d-4fe8-b91b-d1f90f704f16}</Project>
       <Name>MinhHieuShop.Model</Name>
@@ -121,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905030713555_AddTagFiled.resx">
       <DependentUpon>201905030713555_AddTagFiled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905041423566_AddContentToSilde.resx">
+      <DependentUpon>201905041423566_AddContentToSilde.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -69,3 +69,6 @@ C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\obj\Debug\MinhHi
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.csproj.CopyComplete
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.dll
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\bin\Debug\MinhHieuShop.Common.dll
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\bin\Debug\MinhHieuShop.Common.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Data\obj\Debug\MinhHieuShop.Data.Migrations.AddContentToSilde.resources
