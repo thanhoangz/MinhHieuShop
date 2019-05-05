@@ -10,3 +10,9 @@ C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Common\obj\Debug\Minh
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.csproj.CoreCompileInputs.cache
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.dll
 C:\Users\ThanHoang\Source\Repos\MinhHieuShop2\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop3\MinhHieuShop.Common\bin\Debug\MinhHieuShop.Common.dll
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop3\MinhHieuShop.Common\bin\Debug\MinhHieuShop.Common.pdb
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop3\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.csprojAssemblyReference.cache
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop3\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop3\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.dll
+C:\Users\ThanHoang\Source\Repos\MinhHieuShop3\MinhHieuShop.Common\obj\Debug\MinhHieuShop.Common.pdb

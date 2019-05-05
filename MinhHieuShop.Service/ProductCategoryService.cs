@@ -52,7 +52,11 @@ namespace MinhHieuShop.Service
 
         public IEnumerable<ProductCategory> GetAll(string keyword)
         {
-            return (!string.IsNullOrEmpty(keyword))?_ProductCategoryRepository.GetMulti(x=> x.Name.Contains(keyword)||x.Description.Contains(keyword)): _ProductCategoryRepository.GetAll();
+            if (!string.IsNullOrEmpty(keyword))
+                return _ProductCategoryRepository.GetMulti(x => x.Name.Contains(keyword) || x.Description.Contains(keyword));
+            else
+                return _ProductCategoryRepository.GetAll();
+
         }
 
         public IEnumerable<ProductCategory> GetAllByParentId(int parentId)

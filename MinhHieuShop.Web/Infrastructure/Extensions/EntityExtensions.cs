@@ -80,9 +80,8 @@ namespace MinhHieuShop.Web.Infrastructure.Extensions
             product.PromotionPrice = productVm.PromotionPrice;
             product.Warranty = productVm.Warranty;
             product.HomeFlag = productVm.HomeFlag;
+            product.HotFlag = productVm.HotFlag;
             product.ViewCount = productVm.ViewCount;
-
-            product.Tags = productVm.Tags;
 
             product.CreatedDate = productVm.CreatedDate;
             product.CreatedBy = productVm.CreatedBy;
@@ -91,6 +90,7 @@ namespace MinhHieuShop.Web.Infrastructure.Extensions
             product.MetaKeyword = productVm.MetaKeyword;
             product.MetaDescription = productVm.MetaDescription;
             product.Status = productVm.Status;
+            product.Tags = productVm.Tags;
         }
     }
 }

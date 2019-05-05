@@ -18,7 +18,7 @@ namespace MinhHieuShop.Web.Api
         [Route("TestMethod")]
         public string TestMethod()
         {
-            return "Hello, MINHHIEU Member. ";
+            return "Hello, TEDU Member. ";
         }
     }
 }

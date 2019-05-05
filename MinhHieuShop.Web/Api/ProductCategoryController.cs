@@ -168,8 +168,6 @@ namespace MinhHieuShop.Web.Api
                 return response;
             });
         }
-
-
         [Route("deletemulti")]
         [HttpDelete]
         [AllowAnonymous]

@@ -1,4 +1,5 @@
-﻿/// <reference path="/Assets/admin/libs/angular/angular.js" />
+﻿
+/// <reference path="../../../assets/admin/libs/angular/angular.js" />
 
 (function () {
     angular.module('minhhieushop.product_categories', ['minhhieushop.common']).config(config);

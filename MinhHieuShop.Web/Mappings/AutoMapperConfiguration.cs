@@ -8,7 +8,9 @@ namespace MinhHieuShop.Web.Mappings
     {
         public static void Configure()
         {
+
             Mapper.CreateMap<Post, PostViewModel>();
+
             Mapper.CreateMap<PostCategory, PostCategoryViewModel>();
             Mapper.CreateMap<Tag, TagViewModel>();
 
@@ -16,8 +18,11 @@ namespace MinhHieuShop.Web.Mappings
             Mapper.CreateMap<ProductCategory, ProductCategoryViewModel>();
             Mapper.CreateMap<Product, ProductViewModel>();
             Mapper.CreateMap<ProductTag, ProductTagViewModel>();
+
             Mapper.CreateMap<Footer, FooterViewModel>();
+
             Mapper.CreateMap<Slide, SlideViewModel>();
+
         }
     }
 }

@@ -1,12 +1,12 @@
-﻿/// <reference path="../assets/admin/libs/angular/angular.js" />
-
+﻿
+/// <reference path="../assets/admin/libs/angular/angular.js" />
 (function () {
     angular.module('minhhieushop',
-        [
-            'minhhieushop.products',
+        ['minhhieushop.products',
             'minhhieushop.product_categories',
-            'minhhieushop.common'
-        ]).config(config);
+            'minhhieushop.common'])
+        .config(config)
+        .config(configAuthentication);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 

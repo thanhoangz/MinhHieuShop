@@ -33,11 +33,9 @@ namespace MinhHieuShop.Web.Api
 
                 HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listPostCategoryVm);
 
-
                 return response;
             });
         }
-
 
         [Route("add")]
         public HttpResponseMessage Post(HttpRequestMessage request, PostCategoryViewModel postCategoryVm)
@@ -51,9 +49,10 @@ namespace MinhHieuShop.Web.Api
                 }
                 else
                 {
-                    PostCategory postCategory = new PostCategory();
-                    postCategory.UpdatePostCategory(postCategoryVm);
-                    var category = _postCategoryService.Add(postCategory);
+                    PostCategory newPostCategory = new PostCategory();
+                    newPostCategory.UpdatePostCategory(postCategoryVm);
+
+                    var category = _postCategoryService.Add(newPostCategory);
                     _postCategoryService.Save();
 
                     response = request.CreateResponse(HttpStatusCode.Created, category);

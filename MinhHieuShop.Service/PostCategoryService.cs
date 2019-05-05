@@ -41,7 +41,7 @@ namespace MinhHieuShop.Service
 
         public PostCategory Delete(int id)
         {
-           return _postCategoryRepository.Delete(id);
+            return _postCategoryRepository.Delete(id);
         }
 
         public IEnumerable<PostCategory> GetAll()

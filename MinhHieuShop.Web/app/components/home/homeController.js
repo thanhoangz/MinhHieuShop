@@ -4,4 +4,4 @@
     function homeController() {
 
     }
-})(angular.module('minhhieushop.products'));
+})(angular.module('minhhieushop'));
