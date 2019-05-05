@@ -34,7 +34,7 @@
             var user = new ApplicationUser()
             {
                 UserName = "thanhoangz",
-                Email = "thanhoangz.international@gmail.com",
+                Email = "xuanhoang.ks6@gmail.com",
                 EmailConfirmed = true,
                 BirthDay = DateTime.Now,
                 FullName = "Than Hoang"
@@ -49,7 +49,7 @@
                 roleManager.Create(new IdentityRole { Name = "User" });
             }
 
-            var adminUser = manager.FindByEmail("thanhoangz.international@gmail.com");
+            var adminUser = manager.FindByEmail("xuanhoang.ks6@gmail.com");
 
             manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
         }
@@ -61,9 +61,9 @@
             {
                 List<ProductCategory> listProductCategory = new List<ProductCategory>()
                 {
-                    new ProductCategory() { Name="Điện lạnh",Alias="dien-lanh",Status=true },
-                    new ProductCategory() { Name="Viễn thông",Alias="vien-thong",Status=true },
-                    new ProductCategory() { Name="Đồ gia dụng",Alias="do-gia-dung",Status=true },
+                    new ProductCategory() { Name="Quần áo",Alias="dien-lanh",Status=true },
+                    new ProductCategory() { Name="Phụ kiện",Alias="vien-thong",Status=true },
+                    new ProductCategory() { Name="Giày dép",Alias="do-gia-dung",Status=true },
                     new ProductCategory() { Name="Mỹ phẩm",Alias="my-pham",Status=true }
                 };
                 context.ProductCategories.AddRange(listProductCategory);
